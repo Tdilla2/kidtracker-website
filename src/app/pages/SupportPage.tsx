@@ -49,7 +49,7 @@ export function SupportPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg text-gray-900">General Inquiries</h3>
-                  <p className="text-blue-600">info@gdidigitalsolutions.com</p>
+                  <a href="mailto:info@gdidigitalsolutions.com" className="text-blue-600 hover:underline">info@gdidigitalsolutions.com</a>
                 </div>
               </div>
               <p className="text-sm text-gray-600">
@@ -64,7 +64,7 @@ export function SupportPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg text-gray-900">Email Support</h3>
-                  <p className="text-blue-600">support@gdidigitalsolutions.com</p>
+                  <a href="mailto:support@gdidigitalsolutions.com" className="text-blue-600 hover:underline">support@gdidigitalsolutions.com</a>
                 </div>
               </div>
               <p className="text-sm text-gray-600">
