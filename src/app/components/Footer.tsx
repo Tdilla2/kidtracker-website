@@ -30,11 +30,11 @@ export function Footer() {
             <div className="space-y-3" style={{ color: 'var(--custom-primary-extra-light)' }}>
               <div className="flex items-center space-x-2">
                 <Mail size={18} />
-                <span>info@gdidigitalsolutions.com</span>
+                <a href="mailto:info@gdidigitalsolutions.com" className="hover:text-white transition-colors">info@gdidigitalsolutions.com</a>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail size={18} />
-                <span>support@gdidigitalsolutions.com</span>
+                <a href="mailto:support@gdidigitalsolutions.com" className="hover:text-white transition-colors">support@gdidigitalsolutions.com</a>
               </div>
             </div>
             
