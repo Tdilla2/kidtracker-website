@@ -51,7 +51,7 @@ export function Header() {
               </Link>
             ))}
             <a 
-              href="https://d3fp0kt49krh3s.cloudfront.net/" 
+              href="https://main.d2nbsjhv8lzch9.amplifyapp.com/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-white px-4 py-2 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity inline-flex items-center ml-4"
@@ -90,7 +90,7 @@ export function Header() {
               </Link>
             ))}
             <a 
-              href="https://d3fp0kt49krh3s.cloudfront.net/" 
+              href="https://main.d2nbsjhv8lzch9.amplifyapp.com/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-white px-6 py-2 rounded-lg font-semibold hover:opacity-90 transition-opacity inline-flex items-center mt-4"
