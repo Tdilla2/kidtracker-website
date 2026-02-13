@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="font-bold text-xl mb-4">KID-TRACKER™</h3>
+            <h3 className="font-bold text-xl mb-4">KidTrackerApp™</h3>
             <p style={{ color: 'var(--custom-primary-extra-light)' }}>
               Complete Daycare Management Solution
             </p>
@@ -21,6 +21,7 @@ export function Footer() {
             <ul className="space-y-2" style={{ color: 'var(--custom-primary-extra-light)' }}>
               <li><Link to="/" className="hover:text-white transition-colors">Home</Link></li>
               <li><Link to="/features" className="hover:text-white transition-colors">Features</Link></li>
+              <li><Link to="/pricing" className="hover:text-white transition-colors">Pricing</Link></li>
               <li><Link to="/support" className="hover:text-white transition-colors">Support</Link></li>
             </ul>
           </div>
@@ -70,7 +71,7 @@ export function Footer() {
 
         <div className="border-t mt-8 pt-8 text-center text-sm" style={{ borderColor: 'var(--custom-primary-dark)', color: 'var(--custom-primary-light)' }}>
           <p>© 2026 GDI Digital Solutions. All rights reserved.</p>
-          <p className="mt-1">KID-TRACKER™ - Complete Daycare Management Solution</p>
+          <p className="mt-1">KidTrackerApp™ - Complete Daycare Management Solution</p>
         </div>
       </div>
     </footer>

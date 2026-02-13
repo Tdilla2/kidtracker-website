@@ -14,7 +14,7 @@ export function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-transparent"></div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white px-4">
-            <h1 className="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">KID-TRACKER™</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">KidTrackerApp™</h1>
             <p className="text-xl md:text-2xl drop-shadow-md">Your Complete Daycare Management Solution</p>
           </div>
         </div>
@@ -25,7 +25,7 @@ export function HomePage() {
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Overview</h1>
           <p className="text-xl text-gray-600">
-            Welcome to KID-TRACKER™, your complete daycare management solution!
+            Welcome to KidTrackerApp™, your complete daycare management solution!
           </p>
         </div>
 

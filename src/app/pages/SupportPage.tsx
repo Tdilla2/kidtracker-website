@@ -25,7 +25,7 @@ export function SupportPage() {
             </div>
             <div>
               <h1 className="text-4xl font-bold text-gray-900">Support</h1>
-              <p className="text-gray-600">We're here to help you succeed with KID-TRACKER™</p>
+              <p className="text-gray-600">We're here to help you succeed with KidTrackerApp™</p>
             </div>
           </div>
         </div>

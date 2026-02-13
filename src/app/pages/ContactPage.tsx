@@ -10,7 +10,7 @@ export function ContactPage() {
             Contact Us
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Have questions about KID-TRACKER™? We're here to help! Reach out to our team and we'll get back to you as soon as possible.
+            Have questions about KidTrackerApp™? We're here to help! Reach out to our team and we'll get back to you as soon as possible.
           </p>
         </div>
 

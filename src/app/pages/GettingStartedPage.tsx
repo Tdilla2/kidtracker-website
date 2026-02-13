@@ -8,7 +8,7 @@ export function GettingStartedPage() {
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Overview</h1>
           <p className="text-xl text-gray-600">
-            Welcome to KID-TRACKER™, your complete daycare management solution!
+            Welcome to KidTrackerApp™, your complete daycare management solution!
           </p>
         </div>
 

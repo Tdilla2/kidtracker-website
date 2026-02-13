@@ -16,6 +16,7 @@ export function Header() {
   const navLinks = [
     { path: '/', label: 'Home' },
     { path: '/features', label: 'Features' },
+    { path: '/pricing', label: 'Pricing' },
     { path: '/support', label: 'Support' },
     { path: '/contact', label: 'Contact Us' },
   ];
@@ -29,7 +30,7 @@ export function Header() {
               <Users size={28} />
             </div>
             <div>
-              <h1 className="font-bold text-xl text-white">KID-TRACKER™</h1>
+              <h1 className="font-bold text-xl text-white">KidTrackerApp™</h1>
               <p className="text-xs" style={{ color: 'var(--custom-primary-extra-light)' }}>Powered by GDI Digital Solutions</p>
             </div>
           </Link>

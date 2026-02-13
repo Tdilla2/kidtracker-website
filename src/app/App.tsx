@@ -8,6 +8,7 @@ import { GettingStartedPage } from './pages/GettingStartedPage';
 import { FeaturesPage } from './pages/FeaturesPage';
 import { SupportPage } from './pages/SupportPage';
 import { ContactPage } from './pages/ContactPage';
+import { PricingPage } from './pages/PricingPage';
 import { ChildrenPage } from './pages/features/ChildrenPage';
 import { AttendancePage } from './pages/features/AttendancePage';
 import { ActivitiesPage } from './pages/features/ActivitiesPage';
@@ -31,6 +32,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/features" element={<FeaturesPage />} />
+            <Route path="/pricing" element={<PricingPage />} />
             <Route path="/support" element={<SupportPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/features/children" element={<ChildrenPage />} />
