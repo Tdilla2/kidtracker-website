@@ -72,6 +72,9 @@ export function Footer() {
         <div className="border-t mt-8 pt-8 text-center text-sm" style={{ borderColor: 'var(--custom-primary-dark)', color: 'var(--custom-primary-light)' }}>
           <p>© 2026 GDI Digital Solutions. All rights reserved.</p>
           <p className="mt-1">KidTrackerApp™ - Complete Daycare Management Solution</p>
+          <p className="mt-2">
+            <Link to="/privacy" className="hover:text-white transition-colors underline">Privacy Policy</Link>
+          </p>
         </div>
       </div>
     </footer>
