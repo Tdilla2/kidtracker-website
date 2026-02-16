@@ -142,8 +142,8 @@ export function PricingPage() {
       {/* Hero Section */}
       <div className="relative h-96 overflow-hidden">
         <ImageWithFallback
-          src="https://plus.unsplash.com/premium_photo-1663106419176-ab3e42499a5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920"
-          alt="Diverse group of children in a modern daycare classroom"
+          src="https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920"
+          alt="Diverse children sitting together in a modern daycare classroom"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60"></div>
@@ -258,8 +258,8 @@ export function PricingPage() {
         <div className="grid md:grid-cols-3 gap-4 mb-20 max-w-5xl mx-auto">
           <div className="relative h-56 rounded-xl overflow-hidden shadow-sm group">
             <ImageWithFallback
-              src="https://plus.unsplash.com/premium_photo-1663054784547-755053119963?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
-              alt="Diverse nursery children sitting together in a modern classroom"
+              src="https://images.unsplash.com/photo-1761208663763-c4d30657c910?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+              alt="Children playing with toys in a bright daycare room"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
