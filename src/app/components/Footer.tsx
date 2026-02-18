@@ -1,5 +1,6 @@
 import { Mail, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import logoImg from '@/assets/kidtracker-logo.png';
 
 export function Footer() {
   return (
@@ -7,7 +8,12 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="font-bold text-xl mb-4">KidTrackerApp™</h3>
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="bg-white rounded-lg p-1">
+                <img src={logoImg} alt="KidTrackerApp Logo" className="h-9 w-auto" />
+              </div>
+              <h3 className="font-bold text-xl">KidTrackerApp™</h3>
+            </div>
             <p style={{ color: 'var(--custom-primary-extra-light)' }}>
               Complete Daycare Management Solution
             </p>

@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Users, LogIn } from 'lucide-react';
+import { Menu, X, LogIn } from 'lucide-react';
 import { useState } from 'react';
+import logoImg from '@/assets/kidtracker-logo.png';
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,8 +27,8 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center" style={{ color: 'var(--custom-primary)' }}>
-              <Users size={28} />
+            <div className="bg-white rounded-lg p-1">
+              <img src={logoImg} alt="KidTrackerApp Logo" className="h-10 w-auto" />
             </div>
             <div>
               <h1 className="font-bold text-xl text-white">KidTrackerApp™</h1>

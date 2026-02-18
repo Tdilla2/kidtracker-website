@@ -3,14 +3,12 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { ScrollToTop } from './components/ScrollToTop';
 import { BackToTop } from './components/BackToTop';
-import { CookieConsent } from './components/CookieConsent';
 import { HomePage } from './pages/HomePage';
 import { GettingStartedPage } from './pages/GettingStartedPage';
 import { FeaturesPage } from './pages/FeaturesPage';
 import { SupportPage } from './pages/SupportPage';
 import { ContactPage } from './pages/ContactPage';
 import { PricingPage } from './pages/PricingPage';
-import { PrivacyPage } from './pages/PrivacyPage';
 import { ChildrenPage } from './pages/features/ChildrenPage';
 import { AttendancePage } from './pages/features/AttendancePage';
 import { ActivitiesPage } from './pages/features/ActivitiesPage';
@@ -49,12 +47,10 @@ export default function App() {
             <Route path="/features/users" element={<UsersPage />} />
             <Route path="/features/parent-portal" element={<ParentPortalPage />} />
             <Route path="/features/quickbooks" element={<QuickBooksPage />} />
-            <Route path="/privacy" element={<PrivacyPage />} />
           </Routes>
         </main>
         <Footer />
         <BackToTop />
-        <CookieConsent />
       </div>
     </Router>
   );
