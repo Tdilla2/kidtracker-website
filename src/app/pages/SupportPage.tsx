@@ -1,4 +1,4 @@
-import { Mail, Lightbulb, CheckCircle, HelpCircle, MessageCircle } from 'lucide-react';
+import { Mail, Lightbulb, CheckCircle, HelpCircle, MessageCircle, Ticket, ExternalLink } from 'lucide-react';
 
 export function SupportPage() {
   const tips = [
@@ -78,6 +78,34 @@ export function SupportPage() {
               <strong>Business Hours:</strong> Monday - Friday, 9AM - 6PM | Weekend: By Appointment
             </p>
           </div>
+        </div>
+
+        {/* Submit a Ticket */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
+          <div className="flex items-center mb-6">
+            <div className="w-14 h-14 bg-orange-100 rounded-lg flex items-center justify-center mr-4">
+              <Ticket className="text-orange-600" size={28} />
+            </div>
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900">Submit a Ticket</h2>
+              <p className="text-gray-600">Need help? Open a support ticket and our team will get back to you.</p>
+            </div>
+          </div>
+
+          <p className="text-gray-700 mb-6">
+            Use our ticketing system to report issues, request features, or get assistance with your account.
+            Our support team monitors tickets during business hours and will respond as quickly as possible.
+          </p>
+
+          <a
+            href="https://main.d1mbv2okmios4g.amplifyapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg transition-colors text-lg"
+          >
+            Open Ticketing System
+            <ExternalLink size={20} />
+          </a>
         </div>
 
         {/* Tips & Best Practices */}
